@@ -25,7 +25,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7620"
-            targets: "MI-MINI"
+            targets: "MI-MINI MI-3"
           - build_variant: "mt7621-usb"
             targets: "MI-R3G"
     steps:
